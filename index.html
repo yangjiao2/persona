@@ -1,18 +1,57 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<html>
+    <head>
+        <title>Yang Jiao</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    </head>
+    <body>
+    <div id = "wrapper">
+        <header>
+        <h1> About Yang</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home</a> &nbsp; </li>
+                <li><a href="github.html"> Github </a> &nbsp; </li>
+                <li><a href="blog.html"> Blog </a> &nbsp; </li>
+                <li><a href="ins.html"> Instagram</a> </li>
+            </ul>
+        </nav>
+        <main>
+            
+            <p><code> # hello world </code></p>
+        
+            <br>
+            <div>
+            <img class="floatleft" src ="pic/meme.jpg" width="160px" height="160px" alt="me"> 
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            <ul>
+            <li>Semi-gregarious two-feet standing mammal </li>
+            <li>Modern people which means I will not going to bed till 12am</li>
+            <li>My dog posses my apartment and charged me fees for rubbing his butt </li>
+            <li>Boring is not a <i> adj.</i>, sometimes I saw it through eyes of people which is freaking scary</li>
+            <li>Today's talking quota is almost 99%, so maybe next time?</li>
+            </ul>
+            
+            </div>
+        
+            <br> <br> <br> <br> 
+            <div>
+            My address: <br> 
+            A place where I cook my meals and feed my soul <br> 
+            <a id="mobile" href="tel:650-739-9016"> # Call me by my last name (which sounds like WoooOOOOO)</a>
+            </div>
+           
+        </main>
+        <footer>Copyright &copy; 2020<br>
+            <i><a href="wang_wenyi@student.smc.edu">wang_wenyi@student.smc.edu</a> </small> </i> 
+        </footer>
+    </div>
+    </body>
+</html> 
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    
