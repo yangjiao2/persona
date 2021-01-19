@@ -1,15 +1,3 @@
----
-layout: page
-title: About
-permalink: /about/
----
+### Digital profile
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[email](mailto:yjiao917@gmail.com) | [facebook](yangjiaouci) | [github](https://github.com/yangjiao2) | [medium](@yjiao7) | [instagram](https://www.instagram.com/jiaaojiao/) | [linkedin](https://www.linkedin.com/in/yjiao7/) | [douban](https://www.douban.com/people/128808656/)
