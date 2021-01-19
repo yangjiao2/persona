@@ -23,6 +23,10 @@ header {
 header > h1 {
   /* line-height: 200%; */
   padding-top: 45px;
+  /* font-size: 3em; */
+}
+
+h1 {
   font-size: 3em;
 }
 
@@ -199,12 +203,13 @@ footer {
   }
   h1 {
     padding-top: 1em;
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top: 0;
-    margin-bottom: 1em;
-    padding-bottom: 1em;
+    margin-bottom: 0;
+    padding-bottom: 0;
     text-align: center;
   }
+
   header {
     border-bottom: 5px;
     border-style: solid;
@@ -212,6 +217,7 @@ footer {
     border-style: solid;
     border-color: #262873;
     background-color: white;
+    height: 180px;
   }
   nav {
     float: none;
