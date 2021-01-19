@@ -11,13 +11,13 @@ body {
 header {
   background-color: white;
   /* text-align: center; */
-  height: 150px;
+  height: 200px;
   background-image: url(pic/bear.gif);
   background-repeat: no-repeat;
   border-bottom: 0px;
   border-style: solid;
   border-color: #262873;
-  padding-left: 220px;
+  padding-left: 240px;
 }
 
 header > h1 {
