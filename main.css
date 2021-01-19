@@ -218,7 +218,9 @@ footer {
     border-color: #262873;
     background-color: white;
     height: 180px;
+    text-align: center;
   }
+
   nav {
     float: none;
     width: auto;
@@ -284,6 +286,7 @@ footer {
     border-bottom: 0px;
     border-style: solid;
     border-color: #262873;
+    padding-left: 20px;
   }
 
   h1 {
