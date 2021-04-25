@@ -307,7 +307,7 @@ footer {
     padding: 0.2em;
   }
   nav li {
-    display: block;
+    display: inline-flex;
   }
   main {
     padding-top: 1px;
